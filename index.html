@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leckere Protein Cookies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background: #ff6f61;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .hero-image {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .offer {
+      background: #e8f4f8;
+      border: 2px dashed #ff6f61;
+      padding: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .offer h2 {
+      margin: 0 0 10px;
+    }
+    .offer form input[type="email"] {
+      width: 80%;
+      padding: 10px;
+      font-size: 1em;
+      margin-bottom: 10px;
+    }
+    .offer form input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 1em;
+      background: #ff6f61;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .offer form input[type="submit"]:hover {
+      background: #e55a50;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Unfassbar leckere Protein Cookies</h1>
+    <p>Der Geschmack, der dich fit macht!</p>
+  </header>
+
+  <div class="container">
+    <img src="https://via.placeholder.com/800x400?text=Protein+Cookies" alt="Protein Cookies" class="hero-image">
+    
+    <div class="offer">
+      <h2>Early Bird Angebot: 33% Rabatt</h2>
+      <p>Trage deine E-Mail ein und sichere dir deinen exklusiven Rabatt – nur einmalig!</p>
+      <form action="https://dein-backend-endpoint.de/anmeldung" method="POST">
+        <input type="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+        <br>
+        <input type="submit" value="Jetzt anmelden!">
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
 
